@@ -167,11 +167,11 @@ align-items: center;
     line-height: 32px;
 }
 .social{
-    width: 1200px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     border-radius:30px;
-    box-shadow: 0px 0px 40px #888888;
+    box-shadow: 0px 0px 40px #c2bebe;
     margin-bottom: 50px;
 }
 .social div{
@@ -218,11 +218,19 @@ footer h1{
 }
 nav{        
     height: 50px; 
-    
     background-color: #FBA24F;
-
     padding: 0 50px;   
 }
 nav a {
     text-decoration: none;
+}
+.footerbutton{
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px #494949;
+    padding-left: 10px;
+    padding-right: 10px;
 }
